@@ -1,0 +1,32 @@
+# Hindi Compiler - Sample Program
+
+sankhya x = 10;
+sankhya y = 20;
+
+sankhya sum = x + y;
+sankhya prod = x * y;
+sankhya expr = x + y * 2;
+
+dikhao(sum);
+dikhao(prod);
+dikhao(expr);
+
+agar (x > 0) {
+    dikhao(x);
+} nahi_to {
+    dikhao(y);
+}
+
+sankhya i = 0;
+jabtak (i < 5) {
+    dikhao(i);
+    i += 1;
+}
+
+kaam sankhya jodo(sankhya a, sankhya b) {
+    sankhya hasil = a + b;
+    wapas hasil;
+}
+
+sankhya answer = jodo(x, y);
+dikhao(answer);
